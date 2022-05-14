@@ -1,5 +1,5 @@
 import headerNavLinks from '@/data/headerNavLinks';
-import Link from 'next/link';
+import Link from '@/components/Link';
 import { ReactNode } from 'react';
 import Footer from './Footer';
 import MobileNav from './MobileNav';
@@ -17,10 +17,12 @@ const LayoutWrapper = ({ children }: Props) => {
 					<div className='flex items-center text-base leading-5'>
 						<div className='hidden sm:block'>
 							{headerNavLinks.map(link => (
-								<Link key={link.title} href={link.href}>
-									<a className='p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4'>
-										{link.title}
-									</a>
+								<Link
+									key={link.title}
+									href={link.href}
+									className='p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4'
+								>
+									{link.title}
 								</Link>
 							))}
 						</div>
