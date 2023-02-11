@@ -26,7 +26,7 @@ export const projects: Project[] = [
 	{
 		title: 'TimeTracker',
 		slug: 'timetracker',
-		banner: '/banners/timetracker.png',
+		banner: '/banners/time.png',
 		website: 'https://time-tracker-ebon.vercel.app/',
 		description: `A simple time tracker and timesheet app that lets you track work hours across differents activities.`,
 		shortDescription: 'A simple time tracker.',

@@ -2,6 +2,21 @@ import { useRandomColorPair } from '@/hooks/useRandomColor';
 import Image from 'next/image';
 import { RoughNotation } from 'react-rough-notation';
 
+const skills = [
+	'React',
+	'Next JS',
+	'TypeScript',
+	'Tailwind CSS',
+	'JavaScript',
+	'Node JS',
+	'Express',
+	'Nest JS',
+	'Vue',
+	'SvelteKit',
+	'Mongo DB',
+	'Firebase',
+];
+
 const About = () => {
 	const [resumeColor] = useRandomColorPair();
 	return (
@@ -30,17 +45,17 @@ const About = () => {
 					</div>
 
 					<div className='prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2'>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia sunt
-						cum commodi corrupti. Voluptatem ut fugit modi voluptates. Dolorem
-						ipsa a iste repellat earum enim ad excepturi inventore voluptatem
-						molestiae? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-						Odit in vel vero eum placeat dolor id blanditiis ipsum soluta
-						facilis. Commodi illum blanditiis repudiandae voluptatem odio nobis
-						quasi amet inventore!
+						A software engineer who values learning and growing with people,
+						teams, and technologies. I am a person used to solving problems and
+						unforeseen events autonomously, without need for constant
+						supervision. I am a programmer with a taste for technologies agile.
+						Within my experience, I have developed different apps and web
+						systems of different types of clients occupying the position of
+						front end and back end developer.
 						<div className='mt-8'>
 							<a
 								className='!font-normal !text-black !no-underline dark:!text-white'
-								href='/about'
+								href='https://drive.google.com/uc?export=download&id=1N3vcnI0H9xMBOwGy2wUQIDIVnbYG9EA8'
 								target='_blank'
 								rel='noreferrer'
 							>
@@ -58,7 +73,16 @@ const About = () => {
 							<h2 className='mt-8 mb-4 text-2xl font-semibold dark:text-white'>
 								Skills
 							</h2>
-							<p className='text-gray-600'>stacks</p>
+							<div className='flex flex-row flex-wrap gap-2'>
+								{skills.map((skillName: string, index: number) => (
+									<span
+										key={index}
+										className='mr-2 mb-2 rounded-sm bg-gray-600 px-2 py-1 text-xs font-medium text-white'
+									>
+										{skillName}
+									</span>
+								))}
+							</div>
 						</div>
 					</div>
 				</div>
