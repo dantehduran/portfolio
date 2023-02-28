@@ -45,13 +45,21 @@ const About = () => {
 					</div>
 
 					<div className='prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2'>
-						A software engineer who values learning and growing with people,
-						teams, and technologies. I am a person used to solving problems and
-						unforeseen events autonomously, without need for constant
-						supervision. I am a programmer with a taste for technologies agile.
-						Within my experience, I have developed different apps and web
-						systems of different types of clients occupying the position of
-						front end and back end developer.
+						<p>
+							A software engineer who values learning and growing with people,
+							teams, and technologies.
+						</p>
+						<p>
+							I am a person used to solving problems and unforeseen events
+							autonomously, without need for constant supervision. I am a
+							programmer with a taste for new technologies. Within my
+							experience,
+						</p>
+						<p>
+							I have developed different apps and web systems of different types
+							of clients occupying the position of front end and back end
+							developer.
+						</p>
 						<div className='mt-8'>
 							<a
 								className='!font-normal !text-black !no-underline dark:!text-white'
