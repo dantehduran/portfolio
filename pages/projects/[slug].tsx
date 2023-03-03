@@ -48,7 +48,7 @@ const Project = ({
 			{stack.map((stackName: string, index: number) => (
 				<span
 					key={index}
-					className='mr-2 mb-2 rounded-sm bg-gray-600 px-2 py-1 text-xs font-medium text-white'
+					className='mr-2 mb-2 rounded-lg bg-teal-800 px-2 py-1 text-xs font-medium text-white'
 				>
 					{stackName}
 				</span>

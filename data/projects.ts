@@ -48,6 +48,18 @@ export const projects: Project[] = [
 		screenshot: '/banners/respos-cart.gif',
 	},
 	{
+		title: 'Evogym',
+		slug: 'evogym',
+		website: 'https://gym-page-two.vercel.app/',
+		banner: '/banners/evogym.png',
+		description:
+			'Landing page for a gym, the design should be clean, modern, and easy to navigate, with plenty of high-quality images and clear calls-to-action throughout. The use of Tailwind CSS can help to ensure that the landing page is fully responsive and accessible across a wide range of devices and screen sizes, while React is used to create dynamic and interactive components that enhance the user experience.',
+		shortDescription: 'Landing page for a gym',
+		repository: 'https://github.com/dantehduran/gym-page/',
+		stack: ['React', 'TailwindCSS'],
+		screenshot: '/banners/evogym.png',
+	},
+	{
 		title: 'TimeTracker',
 		slug: 'timetracker',
 		banner: '/banners/time.png',
