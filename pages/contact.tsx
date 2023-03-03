@@ -1,6 +1,7 @@
 import { RoughNotation } from 'react-rough-notation';
-
+import { useRandomColorPair } from '@/hooks/useRandomColor';
 const Contact = () => {
+	const [emailcolor] = useRandomColorPair();
 	return (
 		<>
 			<div className='fade-in divide-y-2 divide-gray-100 dark:divide-gray-800'>
@@ -18,7 +19,7 @@ const Contact = () => {
 						animationDelay={250}
 						animationDuration={2000}
 						strokeWidth={2}
-						color='#FFF'
+						color={emailcolor}
 					>
 						dantehduran@gmail.com
 					</RoughNotation>
