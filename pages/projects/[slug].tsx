@@ -53,12 +53,14 @@ const Project = ({
 					{stackName}
 				</span>
 			))}
-			<div className='flex flex-row gap-4 mb-4'>
+			<div className='flex flex-row gap-4 mb-4 text-white'>
 				{repository && (
 					<div className='flex'>
 						<a
+							target='_blank'
+							rel='noreferrer'
 							href={repository}
-							className='mt-4 mr-2 flex items-center rounded-sm  px-2 py-1 text-xs font-medium dark:text-white'
+							className='mt-4 mr-2 flex bg-primary-600 items-center rounded-lg  px-2.5 py-1.5 text-xs font-bold dark:text-white'
 						>
 							<AiOutlineLink className='mr-1' size={15} />
 							repository
@@ -68,8 +70,10 @@ const Project = ({
 				{website && (
 					<div className='flex'>
 						<a
+							target='_blank'
+							rel='noreferrer'
 							href={website}
-							className='mt-4 mr-2 flex items-center rounded-sm  px-2 py-1 text-xs font-medium dark:text-white'
+							className='mt-4 mr-2 flex items-center rounded-lg bg-primary-600  px-2.5 py-1.5 text-xs font-medium dark:text-white'
 						>
 							<AiOutlineLink className='mr-1' size={15} />
 							website
