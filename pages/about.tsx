@@ -63,7 +63,7 @@ const About = () => {
 						<div className='mt-8'>
 							<a
 								className='!font-normal !text-black !no-underline dark:!text-white'
-								href='https://drive.google.com/uc?export=download&id=1N3vcnI0H9xMBOwGy2wUQIDIVnbYG9EA8'
+								href='https://drive.google.com/uc?export=download&id=1LI34jSC72RniikYYr-kfSpnv073QsrxA'
 								target='_blank'
 								rel='noreferrer'
 							>
